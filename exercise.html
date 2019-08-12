@@ -1,0 +1,21 @@
+<html>
+
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/posenet"></script>
+</head>
+
+<body>
+  <img id="man" src="man.jpg">
+</body>
+<script>
+  var imageElement = document.getElementById('man');
+
+  posenet.load().then(function(net) {
+    return net.estimateSinglePose(imageElement, 0.5, false, 16)
+  }).then(function(pose) {
+    console.log(pose)
+  })
+</script>
+
+</html>

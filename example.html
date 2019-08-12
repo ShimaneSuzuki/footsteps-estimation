@@ -1,0 +1,46 @@
+<html>
+
+<head>
+  <!-- Load TensorFlow.js -->
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+  <!-- Load Posenet -->
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/posenet"></script>
+</head>
+
+<body>
+  <img id='man' src='man.jpg' />
+  <h1>posedraw</h1>
+  <canvas id="posedraw" width="725" height="1200"></canvas>
+</body>
+<!-- Place your code in the script tag below. You can also use an external .js file -->
+<script>
+  var flipHorizontal = false;
+
+  var imageElement = document.getElementById('man');
+
+  function drawarc(x, y) {
+    var canvas = document.getElementById('posedraw');
+    if (!canvas || !canvas.getContext) {
+      return false;
+    }
+    var ctx = canvas.getContext('2d');
+    ctx.beginPath();
+    ctx.arc(x, y, 10, 0, Math.PI * 2, false);
+    ctx.fill();
+  }
+
+  posenet.load().then(function(net) {
+    const pose = net.estimateSinglePose(imageElement, {
+      flipHorizontal: true
+    });
+    return pose;
+  }).then(function(pose) {
+    console.log(pose);
+    for (let i = 0; i < pose.keypoints.length; i++) {
+      let keypoint = pose.keypoints[i];
+      drawarc(keypoint.position.x, keypoint.position.y)
+    }
+  })
+</script>
+
+</html>

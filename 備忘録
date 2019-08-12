@@ -1,0 +1,5 @@
+サーバをたてる
+$ php -S localhost:8080
+
+http://localhost:8080/example.html
+みたいに実行したいファイルを選択
