@@ -18,7 +18,7 @@
 
   var imageElement = document.getElementById('man');
 
-  function drawarc(x, y) {
+  function drawarc(x, y, num) {
     var canvas = document.getElementById('posedraw');
     if (!canvas || !canvas.getContext) {
       return false;
@@ -27,6 +27,10 @@
     ctx.beginPath();
     ctx.arc(x, y, 10, 0, Math.PI * 2, false);
     ctx.fill();
+
+    var txt = num; //描画する文字
+    ctx.font = "40px Arial"; //フォントにArial,40px
+    ctx.fillText(txt, x + 5, y + 5);
   }
 
   posenet.load().then(function(net) {
@@ -38,7 +42,7 @@
     console.log(pose);
     for (let i = 0; i < pose.keypoints.length; i++) {
       let keypoint = pose.keypoints[i];
-      drawarc(keypoint.position.x, keypoint.position.y)
+      drawarc(keypoint.position.x, keypoint.position.y, i)
     }
   })
 </script>
