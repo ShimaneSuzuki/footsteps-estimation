@@ -9,14 +9,16 @@
 
 <body>
   <img id='man' src='man.jpg' />
+  <input type="button" value="再生" onClick="startEstimation()">
   <h1>posedraw</h1>
   <canvas id="posedraw" width="725" height="1200"></canvas>
 </body>
 <!-- Place your code in the script tag below. You can also use an external .js file -->
 <script>
-  var flipHorizontal = false;
+  var flipHorizontal = true;
 
   var imageElement = document.getElementById('man');
+  var audio = new Audio("footstep.m4a");
 
   function drawarc(x, y, num) {
     var canvas = document.getElementById('posedraw');
@@ -33,18 +35,21 @@
     ctx.fillText(txt, x + 5, y + 5);
   }
 
-  posenet.load().then(function(net) {
-    const pose = net.estimateSinglePose(imageElement, {
-      flipHorizontal: true
-    });
-    return pose;
-  }).then(function(pose) {
-    console.log(pose);
-    for (let i = 0; i < pose.keypoints.length; i++) {
-      let keypoint = pose.keypoints[i];
-      drawarc(keypoint.position.x, keypoint.position.y, i)
-    }
-  })
+  function startEstimation() {
+    posenet.load().then(function(net) {
+      const pose = net.estimateSinglePose(imageElement, {
+        flipHorizontal: true
+      });
+      return pose;
+    }).then(function(pose) {
+      console.log(pose);
+      for (let i = 0; i < pose.keypoints.length; i++) {
+        audio.play();
+        let keypoint = pose.keypoints[i];
+        drawarc(keypoint.position.x, keypoint.position.y, i)
+      }
+    })
+  }
 </script>
 
 </html>
