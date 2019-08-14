@@ -7,9 +7,13 @@
 </head>
 
 <body>
-  <video id="video" width="800px" height="600px" autoplay="1" style="position:absolute;">
+  <video id="video" width="270px" height="480px" style="position:absolute;">
     <source src="walk.mp4"></video>
-  <canvas id="canvas" width="800px" height="600px" style="position:absolute;"></canvas>
+  <div style="width:400px; background-color:#333333; color:#ffffff;position:absolute;top: 490px;">
+    <input type="button" value="再生" onClick="playVideo()">
+  </div>
+  <canvas id="canvas" width="270px" height="480px" style="position:absolute;">
+  </canvas>
 </body>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/stats.js/r16/Stats.js"></script>

@@ -2,10 +2,16 @@ const imageScaleFactor = 0.2;
 const outputStride = 16;
 const flipHorizontal = false;
 const stats = new Stats();
-const contentWidth = 800;
-const contentHeight = 600;
+const contentWidth = 270;
+const contentHeight = 480;
 
 bindPage();
+
+function playVideo() {
+  bindPage();
+	// //動画を再生
+	// v.play();
+}
 
 async function bindPage() {
     const net = await posenet.load(); // posenetの呼び出し
@@ -21,6 +27,7 @@ async function bindPage() {
 
 // video属性のロード
 async function loadVideo() {
+    var video = document.getElementById('video')
     video.play();
     return video;
 }
@@ -40,11 +47,11 @@ function detectPoseInRealTime(video, net) {
 
         ctx.clearRect(0, 0, contentWidth,contentHeight);
 
-        ctx.save();
-        ctx.scale(-1, 1);
-        ctx.translate(-contentWidth, 0);
-        ctx.drawImage(video, 0, 0, contentWidth, contentHeight);
-        ctx.restore();
+        // ctx.save();
+        // ctx.scale(-1, 1);
+        // ctx.translate(-contentWidth, 0);
+        // ctx.drawImage(video, 0, 0, contentWidth, contentHeight);
+        // ctx.restore();
 
         poses.forEach(({ score, keypoints }) => {
             // keypoints[15]には左足、keypoints[16]には右足の予測結果が格納されている
