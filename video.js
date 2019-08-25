@@ -63,7 +63,7 @@ function detectPoseInRealTime(video, net) {
       drawWristPoint(keypoints[16], ctx);
     });
 
-    audio.play();
+    // audio.play();
     stats.end();
 
     if (!video.ended) {
