@@ -6,8 +6,14 @@ const contentWidth = 270;
 const contentHeight = 480;
 var audio = new Audio('footstep.m4a');
 var end = false;
+var dateArrR = [
+  ["part_R", "time_R", "x_R", "y_R"]
+];
+var dateArrL = [
+  ["part_L", "time_L", "x_L", "y_L"]
+];
 var dateArr = [
-  ["part", "x", "y", "time"]
+  ["part", "time", "x", "y"]
 ];
 
 function startEstimation() {
@@ -64,12 +70,12 @@ function detectPoseInRealTime(video, net) {
     }) => {
       time = video.currentTime;
       // keypoints[15]には左足、keypoints[16]には右足の予測結果が格納されている
-      drawWristPoint(keypoints[15], ctx);
-      drawWristPoint(keypoints[16], ctx);
-      makeArr(keypoints[15].part, keypoints[15].position.x,
-        keypoints[15].position.y, time);
-      makeArr(keypoints[16].part, keypoints[16].position.x,
-        keypoints[16].position.y, time);
+      // drawWristPoint(keypoints[15], ctx);
+      // drawWristPoint(keypoints[16], ctx);
+      makeArr(keypoints[15].part, time, keypoints[15].position.x,
+        keypoints[15].position.y);
+      makeArr(keypoints[16].part, time, keypoints[16].position.x,
+        keypoints[16].position.y);
     });
 
     // audio.play();
@@ -77,7 +83,7 @@ function detectPoseInRealTime(video, net) {
     stats.end();
 
     if (video.ended) {
-      console.log(dateArr);
+      makeArrResult();
       (new CSV(dateArr)).save('dateArr.csv');
     }
     if (!video.ended) {
@@ -96,7 +102,16 @@ function drawWristPoint(wrist, ctx) {
 }
 
 function makeArr(part, x, y, time) {
-  dateArr.push([part, x, y, time]);
+  if (part == "leftAnkle") {
+    dateArrL.push([part, x, y, time]);
+  }
+  if (part == "rightAnkle") {
+    dateArrR.push([part, x, y, time]);
+  }
+}
+
+function makeArrResult() {
+  dateArr = dateArrR.concat(dateArrL);
 }
 
 class CSV {
