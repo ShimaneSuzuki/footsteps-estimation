@@ -12,6 +12,12 @@ var dateArrR = [
 var dateArrL = [
   ["part_L", "time_L", "x_L", "y_L"]
 ];
+var dateArrLK = [
+  ["part_LK", "time_LK", "x_LK", "y_LK"]
+];
+var dateArrRK = [
+  ["part_RK", "time_RK", "x_RK", "y_RK"]
+];
 var dateArr = [
   ["part", "time", "x", "y"]
 ];
@@ -70,8 +76,14 @@ function detectPoseInRealTime(video, net) {
     }) => {
       time = video.currentTime;
       // keypoints[15]には左足、keypoints[16]には右足の予測結果が格納されている
-      // drawWristPoint(keypoints[15], ctx);
-      // drawWristPoint(keypoints[16], ctx);
+      drawWristPoint(keypoints[13], ctx);
+      drawWristPoint(keypoints[14], ctx);
+      drawWristPoint(keypoints[15], ctx);
+      drawWristPoint(keypoints[16], ctx);
+      makeArr(keypoints[13].part, time, keypoints[13].position.x,
+        keypoints[13].position.y);
+      makeArr(keypoints[14].part, time, keypoints[14].position.x,
+        keypoints[14].position.y);
       makeArr(keypoints[15].part, time, keypoints[15].position.x,
         keypoints[15].position.y);
       makeArr(keypoints[16].part, time, keypoints[16].position.x,
@@ -102,6 +114,12 @@ function drawWristPoint(wrist, ctx) {
 }
 
 function makeArr(part, x, y, time) {
+  if (part == "leftKnee") {
+    dateArrLK.push([part, x, y, time]);
+  }
+  if (part == "rightKnee") {
+    dateArrRK.push([part, x, y, time]);
+  }
   if (part == "leftAnkle") {
     dateArrL.push([part, x, y, time]);
   }
@@ -111,7 +129,7 @@ function makeArr(part, x, y, time) {
 }
 
 function makeArrResult() {
-  dateArr = dateArrR.concat(dateArrL);
+  dateArr = dateArrR.concat(dateArrRK.concat(dateArrL.concat(dateArrLK)));
 }
 
 class CSV {
