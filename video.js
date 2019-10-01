@@ -6,20 +6,8 @@ const contentWidth = 270;
 const contentHeight = 480;
 var audio = new Audio('footstep.m4a');
 var end = false;
-var dateArrR = [
-  ["part_R", "time_R", "x_R", "y_R"]
-];
-var dateArrL = [
-  ["part_L", "time_L", "x_L", "y_L"]
-];
-var dateArrLK = [
-  ["part_LK", "time_LK", "x_LK", "y_LK"]
-];
-var dateArrRK = [
-  ["part_RK", "time_RK", "x_RK", "y_RK"]
-];
 var dateArr = [
-  ["part", "time", "x", "y"]
+  ["time", "x_LK", "y_LK", "x_RK", "y_RK", "x_LA", "y_LA", "x_RA", "y_RA"]
 ];
 
 function startEstimation() {
@@ -64,12 +52,6 @@ function detectPoseInRealTime(video, net) {
 
     ctx.clearRect(0, 0, contentWidth, contentHeight);
 
-    // ctx.save();
-    // ctx.scale(-1, 1);
-    // ctx.translate(-contentWidth, 0);
-    // ctx.drawImage(video, 0, 0, contentWidth, contentHeight);
-    // ctx.restore();
-
     poses.forEach(({
       score,
       keypoints
@@ -80,27 +62,28 @@ function detectPoseInRealTime(video, net) {
       drawWristPoint(keypoints[14], ctx);
       drawWristPoint(keypoints[15], ctx);
       drawWristPoint(keypoints[16], ctx);
-      makeArr(keypoints[13].part, time, keypoints[13].position.x,
-        keypoints[13].position.y);
-      makeArr(keypoints[14].part, time, keypoints[14].position.x,
-        keypoints[14].position.y);
-      makeArr(keypoints[15].part, time, keypoints[15].position.x,
-        keypoints[15].position.y);
-      makeArr(keypoints[16].part, time, keypoints[16].position.x,
-        keypoints[16].position.y);
+
+      dateArr.push([
+        time, keypoints[13].position.x, keypoints[13].position.y,
+        keypoints[14].position.x, keypoints[14].position.y,
+        keypoints[15].position.x, keypoints[15].position.y,
+        keypoints[16].position.x, keypoints[16].position.y
+      ]);
+
+      // var date = [
+      //   ["time", "x_LK", "y_LK", "x_RK", "y_RK", "x_LA", "y_LA", "x_RA", "y_RA"]
+      // ];
+
     });
 
     // audio.play();
 
     stats.end();
 
-    if (video.ended) {
-      makeArrResult();
-      (new CSV(dateArr)).save('dateArr.csv');
-    }
-    if (!video.ended) {
-      requestAnimationFrame(poseDetectionFrame);
-    }
+    // if (video.ended) {
+    //   (new CSV(dateArr)).save('dateArr.csv');
+    // }
+    requestAnimationFrame(poseDetectionFrame);
   }
   poseDetectionFrame();
 }
@@ -111,25 +94,6 @@ function drawWristPoint(wrist, ctx) {
   ctx.arc(wrist.position.x, wrist.position.y, 3, 0, 2 * Math.PI);
   ctx.fillStyle = "pink";
   ctx.fill();
-}
-
-function makeArr(part, x, y, time) {
-  if (part == "leftKnee") {
-    dateArrLK.push([part, x, y, time]);
-  }
-  if (part == "rightKnee") {
-    dateArrRK.push([part, x, y, time]);
-  }
-  if (part == "leftAnkle") {
-    dateArrL.push([part, x, y, time]);
-  }
-  if (part == "rightAnkle") {
-    dateArrR.push([part, x, y, time]);
-  }
-}
-
-function makeArrResult() {
-  dateArr = dateArrR.concat(dateArrRK.concat(dateArrL.concat(dateArrLK)));
 }
 
 class CSV {
