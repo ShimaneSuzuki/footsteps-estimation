@@ -80,10 +80,12 @@ function detectPoseInRealTime(video, net) {
 
     stats.end();
 
-    // if (video.ended) {
-    //   (new CSV(dateArr)).save('dateArr.csv');
-    // }
-    requestAnimationFrame(poseDetectionFrame);
+    if (video.ended) {
+      (new CSV(dateArr)).save('dateArr.csv');
+    }
+    else{
+      requestAnimationFrame(poseDetectionFrame);
+    }
   }
   poseDetectionFrame();
 }
