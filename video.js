@@ -1,9 +1,9 @@
 const imageScaleFactor = 0.2;
 const outputStride = 16;
 const flipHorizontal = false;
+var contentWidth;
+var contentHeight;
 const stats = new Stats();
-const contentWidth = 270;
-const contentHeight = 480;
 var audio = new Audio('footstep.m4a');
 var end = false;
 var dateArr = [
@@ -23,12 +23,20 @@ async function start() {
     console.error(e);
     return;
   }
+  console.log(contentWidth);
   detectPoseInRealTime(video, net);
 }
 
 // video属性のロード
 async function loadVideo() {
   var video = document.getElementById('video')
+  var intervalId = setInterval( function () {
+	if ( video.readyState >= HTMLMediaElement.HAVE_METADATA ) {
+    contentWidth = video.videoWidth/3;
+    contentHeight = video.videoHeight/3;
+    clearInterval( intervalId ) ;
+	}}, 500 ) ;
+
   video.play();
   video.addEventListener("ended", function() {
     end = true;
