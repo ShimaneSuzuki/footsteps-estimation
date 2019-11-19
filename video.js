@@ -7,7 +7,7 @@ const stats = new Stats();
 var audio = new Audio('footstep.m4a');
 var end = false;
 var dateArr = [
-  ["time", "x_LK", "y_LK", "x_RK", "y_RK", "x_LA", "y_LA", "x_RA", "y_RA"]
+  ["time", "x_LK", "y_LK", "x_RK", "y_RK", "x_LA", "y_LA", "x_RA", "y_RA", "x_LW", "y_LW", "x_RW", "y_RW"]
 ];
 
 function startEstimation() {
@@ -70,12 +70,16 @@ function detectPoseInRealTime(video, net) {
       drawWristPoint(keypoints[14], ctx);
       drawWristPoint(keypoints[15], ctx);
       drawWristPoint(keypoints[16], ctx);
+      drawWristPoint(keypoints[9], ctx);
+      drawWristPoint(keypoints[10], ctx);
 
       dateArr.push([
         time, keypoints[13].position.x, keypoints[13].position.y,
         keypoints[14].position.x, keypoints[14].position.y,
         keypoints[15].position.x, keypoints[15].position.y,
-        keypoints[16].position.x, keypoints[16].position.y
+        keypoints[16].position.x, keypoints[16].position.y,
+        keypoints[9].position.x, keypoints[9].position.y,
+        keypoints[10].position.x, keypoints[10].position.y
       ]);
 
       // var date = [
