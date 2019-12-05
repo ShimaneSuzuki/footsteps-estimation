@@ -9,6 +9,7 @@ var end = false;
 var dateArr = [
   ["time", "x_LK", "y_LK", "x_RK", "y_RK", "x_LA", "y_LA", "x_RA", "y_RA", "x_LW", "y_LW", "x_RW", "y_RW"]
 ];
+var frame = 0;
 
 function startEstimation() {
   start();
@@ -23,7 +24,6 @@ async function start() {
     console.error(e);
     return;
   }
-  console.log(contentWidth);
   detectPoseInRealTime(video, net);
 }
 
@@ -72,6 +72,11 @@ function detectPoseInRealTime(video, net) {
       drawWristPoint(keypoints[16], ctx);
       drawWristPoint(keypoints[9], ctx);
       drawWristPoint(keypoints[10], ctx);
+      frame++;
+      console.log(frame);
+      if (frame = 84) {
+        canvas.toDataURL('image/png')
+      }
 
       dateArr.push([
         time, keypoints[13].position.x, keypoints[13].position.y,
@@ -93,7 +98,7 @@ function detectPoseInRealTime(video, net) {
     stats.end();
 
     if (video.ended) {
-      (new CSV(dateArr)).save('dateArr.csv');
+      // (new CSV(dateArr)).save('dateArr.csv');
     }
     else{
       requestAnimationFrame(poseDetectionFrame);
