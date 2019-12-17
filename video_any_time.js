@@ -5,6 +5,7 @@ var frame = 0;
 var video = loadVideo();
 var contentWidth = video.videoWidth;
 var contentHeight = video.videoHeight;
+var di = document.getElementById('frame');
 var i = 0,j = 0;
 
 function start(){
@@ -15,8 +16,8 @@ function start(){
   //   console.error(e);
   //   return;
   // }
-  video.currentTime = dateArr[i];
-  copyFrame(i++);
+  // video.currentTime = dateArr[i];
+  video.currentTime = 2;
   console.log(i);
   console.log(dateArr[i])
 }
@@ -30,28 +31,25 @@ async function loadVideo() {
     contentHeight = video.videoHeight;
     clearInterval( intervalId ) ;
 	}}, 500 ) ;
-
+  video.currentTime = 0;
   return video;
 }
 
 // canvasをdateArr.length個作る
 function createCanvas(){
-  document.open();
   //for(let i=0;i<dateArr.length;i++){
-    document.write('<canvas id="' + j +'" width="'+contentWidth+'px" height="'+contentHeight+'px" style="position: relative;top:400px;"></canvas>');
-    console.log("createCanvas"+j+" , "+contentHeight);
-  //}
-  document.close();
+  di.insertAdjacentHTML('beforeend', '<canvas id=\"' + j +'\" width=\"'+contentWidth+'px\" height=\"'+contentHeight+'px\"></canvas>');
+  console.log("createCanvas"+j+" , "+contentHeight);
   ++j;
 }
 
-function copyFrame(num) {
-    let c = document.getElementById(num);
+function copyFrame() {
+    let c = document.getElementById(i++);
     let ctx = c.getContext('2d');
     console.log(video.currentTime);
     ctx.drawImage(video, 0, 0);  // canvasに関数実行時の動画のフレームを描画
     ctx.beginPath();
-    ctx.arc(77, 500, 3, 0, 2 * Math.PI);
+    ctx.arc(77, 50, 3, 0, 2 * Math.PI);
     ctx.fillStyle = "pink";
     ctx.fill();
 }
