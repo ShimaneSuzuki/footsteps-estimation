@@ -17,22 +17,25 @@ function start(){
   //   return;
   // }
   // video.currentTime = dateArr[i];
-  video.currentTime = 2;
+  video.currentTime = 2.44;
+  console.log(video.currentTime);
   console.log(i);
   console.log(dateArr[i])
 }
 
 // video属性のロード
 async function loadVideo() {
-  let video = document.getElementById('video')
+  let v = document.getElementById('video')
   var intervalId = setInterval( function () {
-	if ( video.readyState >= HTMLMediaElement.HAVE_METADATA ) {
-    contentWidth = video.videoWidth;
-    contentHeight = video.videoHeight;
+	if ( v.readyState >= HTMLMediaElement.HAVE_METADATA ) {
+    contentWidth = v.videoWidth;
+    contentHeight = v.videoHeight;
     clearInterval( intervalId ) ;
+    console.log(contentWidth);
+    v.currentTime = 2.30;
+    console.log(v.currentTime);
+    return v;
 	}}, 500 ) ;
-  video.currentTime = 0;
-  return video;
 }
 
 // canvasをdateArr.length個作る

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <body onLoad="getDuration()">
+    <video id="video" src="walk3.mp4"></video>
+    <div style="width:640px; background-color:#333333; color:#ffffff;">
+      <input type="button" value="再生" onClick="playVideo()"></input>
+      <input type="button" value="一時停止" onClick="pauseVideo()"></input>
+      <input type="button" value="再生位置を2秒にする" onClick="changeCurrentTime()"></input>
+      <div>
+        現在(s): <span id="currentTime">0</span>
+      </div>
+      <div>
+        全体(s): <span id="duration"></span>
+      </div>
+    </div>
+      <script type="text/javascript">
+        const videoElement = document.getElementById("video")
+        const durationElement = document.getElementById("duration")
+        const currentTimeElement = document.getElementById("currentTime")
+
+        function getDuration() {
+        	durationElement.textContent = videoElement.duration
+          currentTimeElement.textContent = videoElement.currentTime
+        }
+
+        function playVideo() {
+        	videoElement.play()
+        }
+
+        function pauseVideo() {
+        	videoElement.pause()
+        }
+
+        function changeCurrentTime() {
+          videoElement.currentTime = 2.0
+        }
+
+        videoElement.addEventListener("timeupdate", () => {
+        	currentTimeElement.textContent = videoElement.currentTime
+        })
+      </script>
+  </body>
+</html>
