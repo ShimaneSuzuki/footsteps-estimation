@@ -1,0 +1,2835 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.1.18)  22 JAN 2020 22:58
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**templete.tex
+(./templete.tex
+LaTeX2e <2019-10-01> patch level 3
+(c:/w32tex/share/texmf-dist/tex/jlatex/base/jreport.cls)
+(c:/w32tex/share/texmf-dist/tex/jlatex/base/j-report.cls
+Document Class: j-report 2000/05/19 v1.4b Standard JLaTeX document class
+(c:/w32tex/share/texmf-dist/tex/jlatex/base/j-size10.clo
+File: j-size10.clo 2000/05/19 v1.4b Standard JLaTeX file (size option)
+
+(c:/w32tex/share/texmf-dist/tex/jlatex/base/jresize10.clo)
+c:/w32tex/share/texmf-dist/tex/jlatex/base/j-size10.clo:101: Illegal unit of me
+asure (pt inserted).
+<to be read again> 
+                   z
+l.101   \setlength\parindent{1zw}
+                                 
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+c:/w32tex/share/texmf-dist/tex/jlatex/base/j-size10.clo:101: LaTeX Error: Missi
+ng \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.101   \setlength\parindent{1zw}
+                                 
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+
+Overfull \hbox (12.66667pt too wide) in paragraph at lines 101--308
+[]\OT1/cmr/m/n/10 zw
+ []
+
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+Runaway argument?
+{^^[$B;29MJ88\newcommand \indexname {^^[$B:w0z^^[(B} \newcommand \figurename \E
+TC.
+./templete.tex:2: File ended while scanning use of \@argdef.
+<inserted text> 
+                \par 
+l.2 \usepackage
+               [dvipdfmx]{graphicx}
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+(c:/w32tex/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/w32tex/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(c:/w32tex/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/01 v1.3d Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/w32tex/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(c:/w32tex/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: dvipdfmx.def on input line 105.
+
+(c:/w32tex/share/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
+File: dvipdfmx.def 2017/06/24 v5.0g Graphics/color driver for dvipdfmx
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(c:/w32tex/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(c:/w32tex/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks15
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(c:/w32tex/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2019/11/16 v2.17d AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(c:/w32tex/share/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(c:/w32tex/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen105
+))
+(c:/w32tex/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen106
+)
+(c:/w32tex/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count89
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count90
+\leftroot@=\count91
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count92
+\DOTSCASE@=\count93
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen107
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count94
+\c@MaxMatrixCols=\count95
+\dotsspace@=\muskip10
+\c@parentequation=\count96
+\dspbrk@lvl=\count97
+\tag@help=\toks17
+\row@=\count98
+\column@=\count99
+\maxfields@=\count100
+\andhelp@=\toks18
+\eqnshift@=\dimen108
+\alignsep@=\dimen109
+\tagshift@=\dimen110
+\tagwidth@=\dimen111
+\totwidth@=\dimen112
+\lineht@=\dimen113
+\@envbody=\toks19
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2858.
+LaTeX Info: Redefining \] on input line 2859.
+)
+(c:/w32tex/share/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count101
+\float@exts=\toks21
+\float@box=\box29
+\@float@everytoks=\toks22
+\@floatcapt=\box30
+)
+(c:/w32tex/share/texmf-dist/tex/latex/here/here.sty)
+(c:/w32tex/share/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+
+./templete.tex:39: LaTeX Error: Command \bibname undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 \renewcommand{\bibname}
+                            {参考文献}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Unused global option(s):
+    [a4j,10.5pt].
+
+(./templete.aux)
+\openout1 = `templete.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+ [1{c:/w32tex/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}]
+
+./templete.tex:50: Package inputenc Error: Unicode character 平 (U+5E73)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50 {\Large 平
+                成31年度\\卒業論文}\\[80mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:50: Package inputenc Error: Unicode character 成 (U+6210)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50 {\Large 平成
+                   31年度\\卒業論文}\\[80mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:50: Package inputenc Error: Unicode character 年 (U+5E74)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50 {\Large 平成31年
+                        度\\卒業論文}\\[80mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:50: Package inputenc Error: Unicode character 度 (U+5EA6)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50 {\Large 平成31年度
+                           \\卒業論文}\\[80mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:50: Package inputenc Error: Unicode character 卒 (U+5352)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50 {\Large 平成31年度\\卒
+                                業論文}\\[80mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:50: Package inputenc Error: Unicode character 業 (U+696D)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50 {\Large 平成31年度\\卒業
+                                   論文}\\[80mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:50: Package inputenc Error: Unicode character 論 (U+8AD6)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50 {\Large 平成31年度\\卒業論
+                                      文}\\[80mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:50: Package inputenc Error: Unicode character 文 (U+6587)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50 {\Large 平成31年度\\卒業論文
+                                         }\\[80mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:50: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50 {\Large 平成31年度\\卒業論文}\\
+                                            [80mm]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./templete.tex:54: Package inputenc Error: Unicode character 歩 (U+6B69)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 {\huge 歩
+               行時における足の接地推定}\\[80mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:54: Package inputenc Error: Unicode character 行 (U+884C)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 {\huge 歩行
+                  時における足の接地推定}\\[80mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:54: Package inputenc Error: Unicode character 時 (U+6642)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 {\huge 歩行時
+                     における足の接地推定}\\[80mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:54: Package inputenc Error: Unicode character に (U+306B)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 {\huge 歩行時に
+                        おける足の接地推定}\\[80mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:54: Package inputenc Error: Unicode character お (U+304A)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 {\huge 歩行時にお
+                           ける足の接地推定}\\[80mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:54: Package inputenc Error: Unicode character け (U+3051)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 {\huge 歩行時におけ
+                              る足の接地推定}\\[80mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:54: Package inputenc Error: Unicode character る (U+308B)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 {\huge 歩行時における
+                                 足の接地推定}\\[80mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:54: Package inputenc Error: Unicode character 足 (U+8DB3)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 {\huge 歩行時における足
+                                    の接地推定}\\[80mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:54: Package inputenc Error: Unicode character の (U+306E)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 {\huge 歩行時における足の
+                                       接地推定}\\[80mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:54: Package inputenc Error: Unicode character 接 (U+63A5)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 {\huge 歩行時における足の接
+                                          地推定}\\[80mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:54: Package inputenc Error: Unicode character 地 (U+5730)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 {\huge 歩行時における足の接地
+                                             推定}\\[80mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:54: Package inputenc Error: Unicode character 推 (U+63A8)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 {\huge 歩行時における足の接地推
+                                                定}\\[80mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:54: Package inputenc Error: Unicode character 定 (U+5B9A)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 ...ge 歩行時における足の接地推定
+                                                  }\\[80mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:54: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 ...歩行時における足の接地推定}\\
+                                                  [80mm]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./templete.tex:58: Package inputenc Error: Unicode character 鈴 (U+9234)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.58 {\large s163043 鈴
+                        木健太}\\[1mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:58: Package inputenc Error: Unicode character 木 (U+6728)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.58 {\large s163043 鈴木
+                           健太}\\[1mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:58: Package inputenc Error: Unicode character 健 (U+5065)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.58 {\large s163043 鈴木健
+                              太}\\[1mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:58: Package inputenc Error: Unicode character 太 (U+592A)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.58 {\large s163043 鈴木健太
+                                 }\\[1mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:59: Package inputenc Error: Unicode character 平 (U+5E73)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 {\large 平
+                成28年度入学}\\[1mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:59: Package inputenc Error: Unicode character 成 (U+6210)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 {\large 平成
+                   28年度入学}\\[1mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:59: Package inputenc Error: Unicode character 年 (U+5E74)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 {\large 平成28年
+                        度入学}\\[1mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:59: Package inputenc Error: Unicode character 度 (U+5EA6)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 {\large 平成28年度
+                           入学}\\[1mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:59: Package inputenc Error: Unicode character 入 (U+5165)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 {\large 平成28年度入
+                              学}\\[1mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:59: Package inputenc Error: Unicode character 学 (U+5B66)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 {\large 平成28年度入学
+                                 }\\[1mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:60: Package inputenc Error: Unicode character 島 (U+5CF6)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 {\large 島
+                根大学　総合理工学部　数理・情報システム...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:60: Package inputenc Error: Unicode character 根 (U+6839)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 {\large 島根
+                   大学　総合理工学部　数理・情報システム...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:60: Package inputenc Error: Unicode character 大 (U+5927)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 {\large 島根大
+                      学　総合理工学部　数理・情報システム...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:60: Package inputenc Error: Unicode character 学 (U+5B66)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 {\large 島根大学
+                         　総合理工学部　数理・情報システム...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:60: Package inputenc Error: Unicode character 　 (U+3000)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 {\large 島根大学　
+                            総合理工学部　数理・情報システム...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:60: Package inputenc Error: Unicode character 総 (U+7DCF)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 {\large 島根大学　総
+                               合理工学部　数理・情報システム...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:60: Package inputenc Error: Unicode character 合 (U+5408)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 {\large 島根大学　総合
+                                  理工学部　数理・情報システム...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:60: Package inputenc Error: Unicode character 理 (U+7406)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 {\large 島根大学　総合理
+                                     工学部　数理・情報システム...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:60: Package inputenc Error: Unicode character 工 (U+5DE5)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 {\large 島根大学　総合理工
+                                        学部　数理・情報システム...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:60: Package inputenc Error: Unicode character 学 (U+5B66)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 {\large 島根大学　総合理工学
+                                           部　数理・情報システム...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:60: Package inputenc Error: Unicode character 部 (U+90E8)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 {\large 島根大学　総合理工学部
+                                              　数理・情報システム...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:60: Package inputenc Error: Unicode character 　 (U+3000)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 {\large 島根大学　総合理工学部　
+                                                 数理・情報システム...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:60: Package inputenc Error: Unicode character 数 (U+6570)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ...ge 島根大学　総合理工学部　数
+                                                  理・情報システム�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:60: Package inputenc Error: Unicode character 理 (U+7406)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ...島根大学　総合理工学部　数理
+                                                  ・情報システム学�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:60: Package inputenc Error: Unicode character ・ (U+30FB)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ...根大学　総合理工学部　数理・
+                                                  情報システム学科}\...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:60: Package inputenc Error: Unicode character 情 (U+60C5)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ...大学　総合理工学部　数理・情
+                                                  報システム学科}\\[1mm]
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:60: Package inputenc Error: Unicode character 報 (U+5831)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ...学　総合理工学部　数理・情報
+                                                  システム学科}\\[1mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:60: Package inputenc Error: Unicode character シ (U+30B7)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ...　総合理工学部　数理・情報シ
+                                                  ステム学科}\\[1mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:60: Package inputenc Error: Unicode character ス (U+30B9)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ...総合理工学部　数理・情報シス
+                                                  テム学科}\\[1mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:60: Package inputenc Error: Unicode character テ (U+30C6)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ...合理工学部　数理・情報システ
+                                                  ム学科}\\[1mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:60: Package inputenc Error: Unicode character ム (U+30E0)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ...理工学部　数理・情報システム
+                                                  学科}\\[1mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:60: Package inputenc Error: Unicode character 学 (U+5B66)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ...工学部　数理・情報システム学
+                                                  科}\\[1mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:60: Package inputenc Error: Unicode character 科 (U+79D1)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ...学部　数理・情報システム学科
+                                                  }\\[1mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:60: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ...部　数理・情報システム学科}\\
+                                                  [1mm]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./templete.tex:61: Package inputenc Error: Unicode character 情 (U+60C5)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 {\large 情
+                報システムコース}\\[8mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:61: Package inputenc Error: Unicode character 報 (U+5831)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 {\large 情報
+                   システムコース}\\[8mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:61: Package inputenc Error: Unicode character シ (U+30B7)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 {\large 情報シ
+                      ステムコース}\\[8mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:61: Package inputenc Error: Unicode character ス (U+30B9)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 {\large 情報シス
+                         テムコース}\\[8mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:61: Package inputenc Error: Unicode character テ (U+30C6)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 {\large 情報システ
+                            ムコース}\\[8mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:61: Package inputenc Error: Unicode character ム (U+30E0)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 {\large 情報システム
+                               コース}\\[8mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:61: Package inputenc Error: Unicode character コ (U+30B3)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 {\large 情報システムコ
+                                  ース}\\[8mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:61: Package inputenc Error: Unicode character ー (U+30FC)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 {\large 情報システムコー
+                                     ス}\\[8mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:61: Package inputenc Error: Unicode character ス (U+30B9)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 {\large 情報システムコース
+                                        }\\[8mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:61: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 {\large 情報システムコース}\\
+                                           [8mm]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./templete.tex:62: Package inputenc Error: Unicode character 主 (U+4E3B)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 {\large 主
+                指導教員：　平川　正人　教授}\\[3mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:62: Package inputenc Error: Unicode character 指 (U+6307)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 {\large 主指
+                   導教員：　平川　正人　教授}\\[3mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:62: Package inputenc Error: Unicode character 導 (U+5C0E)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 {\large 主指導
+                      教員：　平川　正人　教授}\\[3mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:62: Package inputenc Error: Unicode character 教 (U+6559)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 {\large 主指導教
+                         員：　平川　正人　教授}\\[3mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:62: Package inputenc Error: Unicode character 員 (U+54E1)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 {\large 主指導教員
+                            ：　平川　正人　教授}\\[3mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:62: Package inputenc Error: Unicode character ： (U+FF1A)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 {\large 主指導教員：
+                               　平川　正人　教授}\\[3mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:62: Package inputenc Error: Unicode character 　 (U+3000)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 {\large 主指導教員：　
+                                  平川　正人　教授}\\[3mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:62: Package inputenc Error: Unicode character 平 (U+5E73)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 {\large 主指導教員：　平
+                                     川　正人　教授}\\[3mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:62: Package inputenc Error: Unicode character 川 (U+5DDD)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 {\large 主指導教員：　平川
+                                        　正人　教授}\\[3mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:62: Package inputenc Error: Unicode character 　 (U+3000)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 {\large 主指導教員：　平川　
+                                           正人　教授}\\[3mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:62: Package inputenc Error: Unicode character 正 (U+6B63)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 {\large 主指導教員：　平川　正
+                                              人　教授}\\[3mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:62: Package inputenc Error: Unicode character 人 (U+4EBA)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 {\large 主指導教員：　平川　正人
+                                                 　教授}\\[3mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:62: Package inputenc Error: Unicode character 　 (U+3000)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 ...ge 主指導教員：　平川　正人　
+                                                  教授}\\[3mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:62: Package inputenc Error: Unicode character 教 (U+6559)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 ...主指導教員：　平川　正人　教
+                                                  授}\\[3mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:62: Package inputenc Error: Unicode character 授 (U+6388)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 ...指導教員：　平川　正人　教授
+                                                  }\\[3mm]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:62: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 ...導教員：　平川　正人　教授}\\
+                                                  [3mm]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./templete.tex:63: Package inputenc Error: Unicode character 提 (U+63D0)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 {\large 提
+                出日：令和2年1月24日}\\%
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:63: Package inputenc Error: Unicode character 出 (U+51FA)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 {\large 提出
+                   日：令和2年1月24日}\\%
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:63: Package inputenc Error: Unicode character 日 (U+65E5)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 {\large 提出日
+                      ：令和2年1月24日}\\%
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:63: Package inputenc Error: Unicode character ： (U+FF1A)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 {\large 提出日：
+                         令和2年1月24日}\\%
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:63: Package inputenc Error: Unicode character 令 (U+4EE4)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 {\large 提出日：令
+                            和2年1月24日}\\%
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:63: Package inputenc Error: Unicode character 和 (U+548C)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 {\large 提出日：令和
+                               2年1月24日}\\%
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:63: Package inputenc Error: Unicode character 年 (U+5E74)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 {\large 提出日：令和2年
+                                   1月24日}\\%
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:63: Package inputenc Error: Unicode character 月 (U+6708)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 {\large 提出日：令和2年1月
+                                       24日}\\%
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:63: Package inputenc Error: Unicode character 日 (U+65E5)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 {\large 提出日：令和2年1月24日
+                                            }\\%
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1]
+[2]
+
+./templete.tex:70: Package inputenc Error: Unicode character 概 (U+6982)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 \chapter*{概要}
+                      
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:70: Package inputenc Error: Unicode character 要 (U+8981)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 \chapter*{概要}
+                      
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character 人 (U+4EBA)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 人
+        の動作の計測,解析は運動力学やヒューマンコンピ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character の (U+306E)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 人の
+           動作の計測,解析は運動力学やヒューマンコンピ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character 動 (U+52D5)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 人の動
+              作の計測,解析は運動力学やヒューマンコンピ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character 作 (U+4F5C)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 人の動作
+                 の計測,解析は運動力学やヒューマンコンピ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character の (U+306E)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 人の動作の
+                    計測,解析は運動力学やヒューマンコンピ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character 計 (U+8A08)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 人の動作の計
+                       測,解析は運動力学やヒューマンコンピ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character 測 (U+6E2C)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 人の動作の計測
+                          ,解析は運動力学やヒューマンコンピ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character 解 (U+89E3)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 人の動作の計測,解
+                              析は運動力学やヒューマンコンピ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character 析 (U+6790)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 人の動作の計測,解析
+                                 は運動力学やヒューマンコンピ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character は (U+306F)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 人の動作の計測,解析は
+                                    運動力学やヒューマンコンピ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character 運 (U+904B)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 人の動作の計測,解析は運
+                                       動力学やヒューマンコンピ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character 動 (U+52D5)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 人の動作の計測,解析は運動
+                                          力学やヒューマンコンピ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character 力 (U+529B)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 人の動作の計測,解析は運動力
+                                             学やヒューマンコンピ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character 学 (U+5B66)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 人の動作の計測,解析は運動力学
+                                                やヒューマンコンピ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character や (U+3084)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...��動作の計測,解析は運動力学や
+                                                  ヒューマンコンピ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character ヒ (U+30D2)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...��作の計測,解析は運動力学やヒ
+                                                  ューマンコンピュ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character ュ (U+30E5)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...��の計測,解析は運動力学やヒュ
+                                                  ーマンコンピュー�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character ー (U+30FC)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...��計測,解析は運動力学やヒュー
+                                                  マンコンピュータ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character マ (U+30DE)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...��測,解析は運動力学やヒューマ
+                                                  ンコンピュータイ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character ン (U+30F3)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...��,解析は運動力学やヒューマン
+                                                  コンピュータイン�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character コ (U+30B3)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...解析は運動力学やヒューマンコ
+                                                  ンピュータインタ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character ン (U+30F3)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...析は運動力学やヒューマンコン
+                                                  ピュータインター�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character ピ (U+30D4)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...は運動力学やヒューマンコンピ
+                                                  ュータインターフ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character ュ (U+30E5)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...運動力学やヒューマンコンピュ
+                                                  ータインターフェ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character ー (U+30FC)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...動力学やヒューマンコンピュー
+                                                  タインターフェー�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character タ (U+30BF)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...力学やヒューマンコンピュータ
+                                                  インターフェース�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character イ (U+30A4)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...学やヒューマンコンピュータイ
+                                                  ンターフェースな�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character ン (U+30F3)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...やヒューマンコンピュータイン
+                                                  ターフェースなど�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character タ (U+30BF)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...ヒューマンコンピュータインタ
+                                                  ーフェースなど様�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character ー (U+30FC)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...ューマンコンピュータインター
+                                                  フェースなど様々�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character フ (U+30D5)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...ーマンコンピュータインターフ
+                                                  ェースなど様々な�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character ェ (U+30A7)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...マンコンピュータインターフェ
+                                                  ースなど様々な分�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character ー (U+30FC)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...ンコンピュータインターフェー
+                                                  スなど様々な分野�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character ス (U+30B9)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...コンピュータインターフェース
+                                                  など様々な分野に�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character な (U+306A)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...ンピュータインターフェースな
+                                                  ど様々な分野に応�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character ど (U+3069)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...ピュータインターフェースなど
+                                                  様々な分野に応用�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character 様 (U+69D8)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...ュータインターフェースなど様
+                                                  々な分野に応用さ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character 々 (U+3005)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...ータインターフェースなど様々
+                                                  な分野に応用され�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character な (U+306A)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...タインターフェースなど様々な
+                                                  分野に応用されて�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character 分 (U+5206)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...インターフェースなど様々な分
+                                                  野に応用されてい�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character 野 (U+91CE)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...ンターフェースなど様々な分野
+                                                  に応用されている.�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character に (U+306B)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...ターフェースなど様々な分野に
+                                                  応用されている.特�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character 応 (U+5FDC)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...ーフェースなど様々な分野に応
+                                                  用されている.特に,...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character 用 (U+7528)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...フェースなど様々な分野に応用
+                                                  されている.特に,人...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character さ (U+3055)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...ェースなど様々な分野に応用さ
+                                                  れている.特に,人の...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character れ (U+308C)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...ースなど様々な分野に応用され
+                                                  ている.特に,人の動...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character て (U+3066)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...スなど様々な分野に応用されて
+                                                  いる.特に,人の動作...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character い (U+3044)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...など様々な分野に応用されてい
+                                                  る.特に,人の動作の...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character る (U+308B)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...ど様々な分野に応用されている
+                                                  .特に,人の動作の中...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character 特 (U+7279)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...��々な分野に応用されている.特
+                                                  に,人の動作の中で�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character に (U+306B)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...��な分野に応用されている.特に
+                                                  ,人の動作の中でも�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character 人 (U+4EBA)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...�分野に応用されている.特に,人
+                                                  の動作の中でも歩�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character の (U+306E)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...�野に応用されている.特に,人の
+                                                  動作の中でも歩容�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character 動 (U+52D5)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...�に応用されている.特に,人の動
+                                                  作の中でも歩容解�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character 作 (U+4F5C)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...�応用されている.特に,人の動作
+                                                  の中でも歩容解析�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character の (U+306E)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...�用されている.特に,人の動作の
+                                                  中でも歩容解析は,�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character 中 (U+4E2D)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...�されている.特に,人の動作の中
+                                                  でも歩容解析は,最�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character で (U+3067)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...�れている.特に,人の動作の中で
+                                                  も歩容解析は,最も�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character も (U+3082)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...�ている.特に,人の動作の中でも
+                                                  歩容解析は,最も注�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character 歩 (U+6B69)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...�いる.特に,人の動作の中でも歩
+                                                  容解析は,最も注目�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character 容 (U+5BB9)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...�る.特に,人の動作の中でも歩容
+                                                  解析は,最も注目さ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character 解 (U+89E3)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...�.特に,人の動作の中でも歩容解
+                                                  析は,最も注目され�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character 析 (U+6790)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...��に,人の動作の中でも歩容解析
+                                                  は,最も注目されて�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character は (U+306F)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...��,人の動作の中でも歩容解析は
+                                                  ,最も注目されてい�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character 最 (U+6700)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...��の動作の中でも歩容解析は,最
+                                                  も注目されている�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character も (U+3082)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...��動作の中でも歩容解析は,最も
+                                                  注目されている研�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character 注 (U+6CE8)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...��作の中でも歩容解析は,最も注
+                                                  目されている研究�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character 目 (U+76EE)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...��の中でも歩容解析は,最も注目
+                                                  されている研究テ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character さ (U+3055)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...��中でも歩容解析は,最も注目さ
+                                                  れている研究テー�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character れ (U+308C)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...��でも歩容解析は,最も注目され
+                                                  ている研究テーマ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character て (U+3066)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...��も歩容解析は,最も注目されて
+                                                  いる研究テーマの�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character い (U+3044)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...��歩容解析は,最も注目されてい
+                                                  る研究テーマの一�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character る (U+308B)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...��容解析は,最も注目されている
+                                                  研究テーマの一つ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character 研 (U+7814)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...��解析は,最も注目されている研
+                                                  究テーマの一つで�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character 究 (U+7A76)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...��析は,最も注目されている研究
+                                                  テーマの一つであ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character テ (U+30C6)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...��は,最も注目されている研究テ
+                                                  ーマの一つである.�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character ー (U+30FC)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...��,最も注目されている研究テー
+                                                  マの一つである.体�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character マ (U+30DE)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...最も注目されている研究テーマ
+                                                  の一つである.体組�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character の (U+306E)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...も注目されている研究テーマの
+                                                  一つである.体組成�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character 一 (U+4E00)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...注目されている研究テーマの一
+                                                  つである.体組成の�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character つ (U+3064)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...目されている研究テーマの一つ
+                                                  である.体組成の推�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character で (U+3067)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...されている研究テーマの一つで
+                                                  ある.体組成の推定\...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character あ (U+3042)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...れている研究テーマの一つであ
+                                                  る.体組成の推定\cit...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character る (U+308B)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...ている研究テーマの一つである
+                                                  .体組成の推定\cite{c...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character 体 (U+4F53)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...��る研究テーマの一つである.体
+                                                  組成の推定\cite{cite1...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character 組 (U+7D44)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...��研究テーマの一つである.体組
+                                                  成の推定\cite{cite1},�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character 成 (U+6210)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...��究テーマの一つである.体組成
+                                                  の推定\cite{cite1},個�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character の (U+306E)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...��テーマの一つである.体組成の
+                                                  推定\cite{cite1},個人�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character 推 (U+63A8)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...��ーマの一つである.体組成の推
+                                                  定\cite{cite1},個人識�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character 定 (U+5B9A)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...��マの一つである.体組成の推定
+                                                  \cite{cite1},個人識別,...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character 個 (U+500B)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...�ある.体組成の推定\cite{cite1},個
+                                                  人識別,トレーニン�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character 人 (U+4EBA)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...�る.体組成の推定\cite{cite1},個人
+                                                  識別,トレーニング�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character 識 (U+8B58)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...�.体組成の推定\cite{cite1},個人識
+                                                  別,トレーニングや�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character 別 (U+5225)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...��組成の推定\cite{cite1},個人識別
+                                                  ,トレーニングやリ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character ト (U+30C8)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...�成の推定\cite{cite1},個人識別,ト
+                                                  レーニングやリハ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character レ (U+30EC)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...�の推定\cite{cite1},個人識別,トレ
+                                                  ーニングやリハビ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character ー (U+30FC)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...�推定\cite{cite1},個人識別,トレー
+                                                  ニングやリハビリ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./templete.tex:71: Package inputenc Error: Unicode character ニ (U+30CB)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...�定\cite{cite1},個人識別,トレーニ
+                                                  ングやリハビリテ�...
+(That makes 100 errors; please try again.) 
+Here is how much of TeX's memory you used:
+ 2014 strings out of 492158
+ 22792 string characters out of 6127525
+ 83453 words of memory out of 5000000
+ 6405 multiletter control sequences out of 15000+600000
+ 5141 words of font info for 19 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 30i,4n,31p,895b,169s stack positions out of 5000i,500n,10000p,500000b,80000s
+
+./templete.tex:71:  ==> Fatal error occurred, no output PDF file produced!
