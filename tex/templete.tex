@@ -1,0 +1,141 @@
+\documentclass[a4j,10.5pt]{jreport}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{float}
+
+
+% \usepackage{tabularx}
+% \usepackage{multirow}
+% \usepackage{slashbox} default commented out
+\usepackage{cite}
+% \usepackage{supertabular}
+% \usepackage{jtygm} default commented out
+
+\makeatletter %% プリアンブルで定義する場合は必須
+
+% \setcounter{secnumdepth}{5}
+
+%\newcommand{\figcaption}[1]{\def\@captype{figure}\caption{#1}}
+%\newcommand{\tblcaption}[1]{\def\@captype{table}\caption{#1}}
+
+
+
+%---------------------------------------------------------------------
+%\setcounter{topnumber}{5}%    ページ上部の図表は 5 個まで
+%\def\topfraction{1.00}%       ページの上 1.00 まで図表で占めて可
+%\setcounter{bottomnumber}{5}% ページ下部の図表は 5 個まで
+%\def\bottomfraction{1.00}%    ページの下 1.00 まで図表で占めて可
+%\setcounter{totalnumber}{10}% ページあたりの図表は 10 個まで
+\def\textfraction{0.2}%        ページのうち本文が占める割合の下限
+%        これを 0 にすると本文が 1 行だけのページが出来る
+%        0.04 くらいにするとS 1 行だけのページは防げる
+%        0.1 くらいが良いかも知れない
+\def\floatpagefraction{0.8}%   図表だけのページは少ないかも
+                           %   これだけを図表が占める
+%---------------------------------------------------------------------
+
+\renewcommand{\bibname}{参考文献}
+
+\makeatother %% プリアンブルで定義する場合は必須
+
+\begin{document}
+
+\begin{titlepage}
+
+\vspace{40mm}
+\begin{center}
+{\Large 平成31年度\\卒業論文}\\[80mm]
+\end{center}
+
+\begin{center}
+{\huge 題名}\\[100mm]
+\end{center}
+
+\begin{flushright}
+{\large 学籍番号　名前}\\[1mm]
+{\large 平成〇年度入学}\\[1mm]
+{\large 島根大学　総合理工学部　数理・情報システム学科}\\[1mm]
+{\large 情報システムコース}\\[8mm]
+{\large 主指導教員：　平川　正人　教授}\\[3mm]
+{\large 提出日：令和〇年〇月〇日}\\%
+\end{flushright}
+\end{titlepage}
+
+\newpage
+% \pagenumbering{roman}
+
+\chapter*{概要}
+\addcontentsline{toc}{chapter}{概要}
+
+\pagenumbering{roman}
+
+\tableofcontents
+
+\listoftables %表目次
+
+\listoffigures　%図目次
+
+\baselineskip = 8mm
+
+\clearpage
+
+\pagenumbering{arabic}
+
+% 英語の概要が必要な場合
+% \section*{Abstract}
+
+% 必要に応じてchapter,sectionを追加・変更する.
+
+\chapter{はじめに}
+\section{研究背景}
+
+\section{研究目的}
+
+\section{本論文の構成}
+
+\chapter{関連研究}
+\section{○○に関する研究}
+\section{△△に関する研究}
+
+参考\cite{cite1}.
+
+\chapter{提案手法(システム)}
+\section{セクション１}
+\begin{itemize}
+ \item 箇条書きサンプル その1．
+ \item 箇条書きサンプル その2．
+\end{itemize}
+
+\section{セクション２}
+\begin{enumerate}
+    \item サンプル
+    \item サンプル
+\end{enumerate}
+
+\subsection{subsection}
+
+\chapter{システム評価、実験}
+
+\chapter{実験結果、評価、分析等}
+
+\chapter{終わりに、まとめ等}
+
+\chapter*{謝辞}
+\addcontentsline{toc}{chapter}{謝辞}
+ここに研究の謝辞．主にご協力いただいた方など．
+
+
+% \bibliographystyle{jplain}
+\begin{thebibliography}{99}
+ \bibitem{cite1}http://www.latex-cmd.com/
+ \bibitem{cite2}
+ \bibitem{cite3}
+ \bibitem{cite4}
+\end{thebibliography}
+\addcontentsline{toc}{chapter}{\bibname}
+
+\chapter*{付録}
+\addcontentsline{toc}{chapter}{付録}
+
+\end{document}
