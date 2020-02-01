@@ -1,10 +1,10 @@
 # Fdb version 3
-["pdflatex"] 1579774618 "resume-template.tex" "resume-template.pdf" "resume-template" 1579780745
+["pdflatex"] 1579774618 "resume-template.tex" "resume-template.pdf" "resume-template" 1580564126
   "c:/w32tex/share/texmf-dist/web2c/pdftex/pdflatex.fmt" 1579330714 1559942 3bec42bbdae4fe34a849f63ee522bf84 ""
   "c:/w32tex/share/texmf-dist/web2c/texmf.cnf" 1576530757 36109 7d45097f233a33c21f98453e6425cd8e ""
   "cis-resume.cls" 1579627906 1482 1a6e0ced8ce01ac3e250647d2d7aa86c ""
   "resume-template.aux" 1579767408 1096 db04a7dac5d1aeed08ba6d1bb8ad9b16 ""
-  "resume-template.tex" 1579767406 8430 737791044a33fac5d684a214731b22d4 ""
+  "resume-template.tex" 1580563703 8430 737791044a33fac5d684a214731b22d4 ""
   (generated)
   "resume-template.pdf"
   "resume-template.log"

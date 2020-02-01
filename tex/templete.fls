@@ -1,16 +1,12 @@
 PWD C:/tools/footsteps-estimation/tex
 INPUT c:/w32tex/share/texmf-dist/web2c/texmf.cnf
-INPUT c:/w32tex/share/texmf-dist/web2c/pdftex/pdflatex.fmt
+INPUT c:/w32tex/share/texmf-dist/web2c/eptex/platex.fmt
 INPUT templete.tex
 OUTPUT templete.log
-INPUT c:/w32tex/share/texmf-dist/tex/jlatex/base/jreport.cls
-INPUT c:/w32tex/share/texmf-dist/tex/jlatex/base/jreport.cls
-INPUT c:/w32tex/share/texmf-dist/tex/jlatex/base/j-report.cls
-INPUT c:/w32tex/share/texmf-dist/tex/jlatex/base/j-report.cls
-INPUT c:/w32tex/share/texmf-dist/tex/jlatex/base/j-size10.clo
-INPUT c:/w32tex/share/texmf-dist/tex/jlatex/base/j-size10.clo
-INPUT c:/w32tex/share/texmf-dist/tex/jlatex/base/jresize10.clo
-INPUT c:/w32tex/share/texmf-dist/tex/jlatex/base/jresize10.clo
+INPUT c:/w32tex/share/texmf-dist/tex/platex/base/jreport.cls
+INPUT c:/w32tex/share/texmf-dist/tex/platex/base/jreport.cls
+INPUT c:/w32tex/share/texmf-dist/tex/platex/base/jsize10.clo
+INPUT c:/w32tex/share/texmf-dist/tex/platex/base/jsize10.clo
 INPUT c:/w32tex/share/texmf-dist/tex/latex/graphics/graphicx.sty
 INPUT c:/w32tex/share/texmf-dist/tex/latex/graphics/graphicx.sty
 INPUT c:/w32tex/share/texmf-dist/tex/latex/graphics/keyval.sty
@@ -46,11 +42,59 @@ INPUT c:/w32tex/share/texmf-dist/tex/latex/cite/cite.sty
 INPUT templete.aux
 INPUT templete.aux
 OUTPUT templete.aux
-OUTPUT templete.pdf
-INPUT c:/w32tex/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map
 INPUT c:/w32tex/share/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/standard/min10.tfm
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/standard/min10.tfm
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
-INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
+OUTPUT templete.dvi
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm
 INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT templete.toc
+INPUT templete.toc
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT c:/w32tex/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+INPUT c:/w32tex/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+INPUT c:/w32tex/share/texmf-dist/tex/latex/amsfonts/umsb.fd
+INPUT c:/w32tex/share/texmf-dist/tex/latex/amsfonts/umsb.fd
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+OUTPUT templete.toc
+INPUT templete.lot
+INPUT templete.lot
+OUTPUT templete.lot
+INPUT templete.lof
+INPUT templete.lof
+OUTPUT templete.lof
+INPUT figs/datacollect1.png
+INPUT extractbb -B cropbox -O figs/datacollect1.png
+INPUT c:/w32tex/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT figs/original_wrist.pdf
+INPUT extractbb -B cropbox -O figs/original_wrist.pdf
+INPUT figs/original_knee.pdf
+INPUT extractbb -B cropbox -O figs/original_knee.pdf
+INPUT figs/original_ankle.pdf
+INPUT extractbb -B cropbox -O figs/original_ankle.pdf
+INPUT figs/distance.pdf
+INPUT extractbb -B cropbox -O figs/distance.pdf
+INPUT figs/frequency.pdf
+INPUT extractbb -B cropbox -O figs/frequency.pdf
+INPUT figs/acf.pdf
+INPUT extractbb -B cropbox -O figs/acf.pdf
+INPUT extractbb -p 1 -B cropbox -O figs/matome.pdf
+INPUT extractbb -p 2 -B cropbox -O figs/matome.pdf
+INPUT extractbb -p 3 -B cropbox -O figs/matome.pdf
+INPUT templete.aux
