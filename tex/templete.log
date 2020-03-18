@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.3-191112-2.6 (utf8.sjis) (TeX Live 2020/W32TeX) (preloaded format=platex 2020.1.18)  1 FEB 2020 22:35
+This is e-pTeX, Version 3.14159265-p3.8.3-191112-2.6 (utf8.sjis) (TeX Live 2020/W32TeX) (preloaded format=platex 2020.1.18)  18 MAR 2020 14:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -154,25 +154,24 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <20.74> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 70.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <20.74> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 70.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 71.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 71.
+
+
+LaTeX Warning: Citation `cite1' on page 1 undefined on input line 71.
+
+
+LaTeX Warning: Citation `cite2' on page 1 undefined on input line 71.
+
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 77.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 77.
- [1
+[1
 
-] (./templete.toc
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 1.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 1.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
- (c:/w32tex/share/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
- (c:/w32tex/share/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+] (./templete.toc)
 \tf@toc=\write3
 \openout3 = `templete.toc'.
 
@@ -197,123 +196,46 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ]
 第 2 章
+
+LaTeX Warning: Citation `yasukawa' on page 2 undefined on input line 110.
+
+
+LaTeX Warning: Citation `cite1' on page 2 undefined on input line 112.
+
+
+LaTeX Warning: Citation `hori' on page 2 undefined on input line 112.
+
+
+LaTeX Warning: Citation `funk' on page 2 undefined on input line 112.
+
 [2
 
 ]
 第 3 章
+LaTeX Font Info:    Trying to load font information for U+msa on input line 117.
+(c:/w32tex/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 117.
+ (c:/w32tex/share/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+LaTeX Warning: Reference `fig:datecollect' on page 3 undefined on input line 117.
+
 File: figs/datacollect1.png Graphic file (type bmp)
 <figs/datacollect1.png>
 [3
 
 ]
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 125.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 125.
- [4]
-File: figs/original_wrist.pdf Graphic file (type pdf)
-<figs/original_wrist.pdf>
-File: figs/original_knee.pdf Graphic file (type pdf)
-<figs/original_knee.pdf>
-File: figs/original_ankle.pdf Graphic file (type pdf)
-<figs/original_ankle.pdf>
+
+LaTeX Warning: Reference `fig:originaldata' on page 4 undefined on input line 127.
 
 
-LaTeX Warning: Float too large for page by 26.08945pt on input line 156.
-
-File: figs/distance.pdf Graphic file (type pdf)
-<figs/distance.pdf>
-
-LaTeX Warning: Float too large for page by 12.42253pt on input line 162.
-
-File: figs/frequency.pdf Graphic file (type pdf)
-<figs/frequency.pdf>
-
-Overfull \hbox (15.62pt too wide) in paragraph at lines 165--166
- [][] 
- []
-
-File: figs/acf.pdf Graphic file (type pdf)
-<figs/acf.pdf>
-
-Overfull \hbox (15.62pt too wide) in paragraph at lines 171--172
- [][] 
- []
-
-[5] [6] [7] [8]
-第 4 章
-
-LaTeX Warning: File `figs/matome.pdf' not found on input line 216.
+LaTeX Warning: Citation `gait_analyse' on page 4 undefined on input line 127.
 
 
-./templete.tex:216: LaTeX Error: Cannot determine size of graphic in figs/matome.xbb (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.216 ...page=1,width=\linewidth]{figs/matome.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: figs/matome.pdf Graphic file (type pdf)
-<figs/matome.pdf>
-
-LaTeX Warning: File `figs/matome.pdf' not found on input line 217.
+LaTeX Warning: Reference `fig:lengthdata' on page 4 undefined on input line 127.
 
 
-./templete.tex:217: LaTeX Error: Cannot determine size of graphic in figs/matome.xbb (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.217 ...page=2,width=\linewidth]{figs/matome.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: figs/matome.pdf Graphic file (type pdf)
-<figs/matome.pdf>
-
-LaTeX Warning: File `figs/matome.pdf' not found on input line 218.
-
-
-./templete.tex:218: LaTeX Error: Cannot determine size of graphic in figs/matome.xbb (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.218 ...page=3,width=\linewidth]{figs/matome.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: figs/matome.pdf Graphic file (type pdf)
-<figs/matome.pdf>
-
-LaTeX Warning: Float too large for page by 635.51009pt on input line 221.
-
-[9
-
-] [10] [11]
-第 5 章
-[12
-
-] [13
-
-] [14
-
-] (./templete.aux) ) 
-Here is how much of TeX's memory you used:
- 2120 strings out of 492748
- 24653 string characters out of 6141873
- 96094 words of memory out of 5000000
- 6542 multiletter control sequences out of 15000+600000
- 13186 words of font info for 54 fonts, out of 8000000 for 9000
- 929 hyphenation exceptions out of 8191
- 30i,9n,31p,778b,300s stack positions out of 5000i,500n,10000p,500000b,80000s
-
-Output written on templete.dvi (19 pages, 31160 bytes).
+LaTeX Warning: Reference `fig:lengthdata' on page
